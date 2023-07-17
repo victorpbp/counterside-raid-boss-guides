@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+
+//COMPONENTS IMPORTS
+import Navbar from './components/navbar';
+import BossSection from './components/bossSection';
+import ShipsSection from './components/shipsSection';
+import OpsSection from './components/opsSection';
+import DpsSection from './components/dpsSection';
+import SupportsSection from './components/supportsSection';
+import ExtraBossInfo from './components/extraBossInfo';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <BossSection />
+      <ShipsSection />
+      <OpsSection />
+      <DpsSection />
+      <SupportsSection />
+      <ExtraBossInfo />
+      <Footer />
     </div>
   );
 }
