@@ -1,5 +1,3 @@
-import './App.css';
-
 //COMPONENTS IMPORTS
 import Navbar from './components/navbar';
 import BossSection from './components/bossSection';
