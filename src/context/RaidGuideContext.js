@@ -6,6 +6,16 @@ export function useContent() {
   return useContext(RaidGuideContext)
 }
 
+
+//TODO add the rest of the bosses and their info
+
+//TODO make other contexts to separate what each component needs
+//Ex: Make a context for DPS and only DPS has access to it, same for ships, ops, bosses...
+//And then make 1 context that will define which ID everyone should be using
+//This way every info will be synced but not everything needs to be inside the same huge context.
+//This way we make the most out of the functionality and performance of the context hook.
+
+
 export function RaidGuideProvider({ children }) {
 
   const [content] = useState (
