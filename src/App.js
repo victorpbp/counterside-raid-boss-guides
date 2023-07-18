@@ -1,5 +1,11 @@
 //CONTEXT IMPORTS
 import { RaidGuideProvider } from './context/RaidGuideContext';
+import { BossesProvider } from './context/BossesContext';
+import { ShipsProvider } from './context/ShipsContext';
+import { OpsProvider } from './context/OpsContext';
+import { DpsProvider } from './context/DpsContext';
+import { SupportsProvider } from './context/SupportsContext';
+
 
 //COMPONENTS IMPORTS
 import Navbar from './components/navbar';
@@ -16,12 +22,24 @@ function App() {
   return (
     <RaidGuideProvider>
       <Navbar />
-      <BossSection />
-      <ShipsSection />
-      <OpsSection />
-      <DpsSection />
-      <SupportsSection />
-      <ExtraBossInfo />
+      <BossesProvider>
+        <BossSection />
+      </BossesProvider>
+      <ShipsProvider>
+        <ShipsSection />
+      </ShipsProvider>
+      <OpsProvider>
+        <OpsSection />
+      </OpsProvider>
+      <DpsProvider>
+        <DpsSection />
+      </DpsProvider>
+      <SupportsProvider>
+        <SupportsSection />
+      </SupportsProvider>
+      <BossesProvider>
+        <ExtraBossInfo />
+      </BossesProvider>
       <Footer />
     </RaidGuideProvider>
   );
