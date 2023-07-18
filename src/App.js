@@ -1,3 +1,6 @@
+//CONTEXT IMPORTS
+import { RaidGuideProvider } from './context/RaidGuideContext';
+
 //COMPONENTS IMPORTS
 import Navbar from './components/navbar';
 import BossSection from './components/bossSection';
@@ -8,9 +11,10 @@ import SupportsSection from './components/supportsSection';
 import ExtraBossInfo from './components/extraBossInfo';
 import Footer from './components/footer';
 
+
 function App() {
   return (
-    <div className="App">
+    <RaidGuideProvider>
       <Navbar />
       <BossSection />
       <ShipsSection />
@@ -19,7 +23,7 @@ function App() {
       <SupportsSection />
       <ExtraBossInfo />
       <Footer />
-    </div>
+    </RaidGuideProvider>
   );
 }
 
