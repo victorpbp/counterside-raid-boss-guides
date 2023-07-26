@@ -20,9 +20,81 @@ export function OpsProvider({ children }) {
         {
           id: 0,
           name: "Kim Hana",
-          image: "",
-          description: "",
-          tier: "",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
+        },        {
+          id: 0,
+          name: "Kim Hana",
+          image: "./assets/operators/kim_hana.png",
+          description: "Great support for overall skill haste boost and slight dp boost as well.",
+          tier: "S",
         },
 
       ],
@@ -30,7 +102,7 @@ export function OpsProvider({ children }) {
       [ //Inhibtor
         {
           id: 0,
-          name: "Kim Hana",
+          name: "Serena Crew",
           image: "",
           description: "",
           tier: "",
@@ -41,7 +113,7 @@ export function OpsProvider({ children }) {
       [ //Worm
         {
           id: 0,
-          name: "Kim Hana",
+          name: "Lena",
           image: "",
           description: "",
           tier: "",
