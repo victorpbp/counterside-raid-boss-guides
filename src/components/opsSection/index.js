@@ -2,14 +2,14 @@ import './index.css';
 import { useOps } from '../../context/OpsContext';
 import { useGlobalSelector } from '../../context/RaidGuideContext';
 
+import StandardCard from '../standardcard';
+import StandoutCard from '../standoutcard';
+
 function OpsSection() {
 
   const content = useOps();
   const [globalSelector] = useGlobalSelector();
   console.log(content);
-
-  //TODO Make the crucial and normal cards be components of their own.
-  //This will help in with the hovering/clicking elements as well as organization.
   
   return (
     <div className='overallsection'>
@@ -18,26 +18,19 @@ function OpsSection() {
 
       <div className='allcards'>
 
-        <div className='standout'>
+        <div className='carddisplay standout'>
           {content[globalSelector].map((item, index) =>
             { if (index<4) return (
-                <div className='individualcard-crucial'>
-                  <h3>{item.name} - {item.tier}</h3>
-                  <img src={item.image} alt="" width="180px" height="180px"/>
-                  <p>{item.description}</p>
-                </div>
+                <StandoutCard name={item.name} tier={item.tier} image={item.image} description={item.description}/>
               ); else return ("")
             }
           )}
         </div>
 
-        <div className='standard'>
+        <div className='carddisplay standard'>
           {content[globalSelector].map((item, index) =>
             { if (index>=4) return (
-                <div className='individualcard'>
-                  <h3>{item.name} - {item.tier}</h3>
-                  <img src={item.image} alt="" width="120px" height="120px"/>
-                </div>
+                <StandardCard name={item.name} tier={item.tier} image={item.image} description={item.description}/>
               ); else return ("")
             }
           )}
