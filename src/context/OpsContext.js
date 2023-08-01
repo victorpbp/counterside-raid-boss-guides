@@ -24,13 +24,13 @@ export function OpsProvider({ children }) {
           description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
           tier: "S",
         },        {
-          id: 0,
+          id: 1,
           name: "Lena Mackenzie",
           image: "./assets/operators/lena.png",
           description: "Buffs ASPD for all allies and is relatively easy to trigger.",
           tier: "A",
         },        {
-          id: 0,
+          id: 2,
           name: "Mark Finley",
           image: "./assets/operators/mark.png",
           description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",
@@ -47,13 +47,13 @@ export function OpsProvider({ children }) {
         description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
         tier: "S",
       },        {
-        id: 0,
+        id: 1,
         name: "Lena Mackenzie",
         image: "./assets/operators/lena.png",
         description: "Buffs ASPD for all allies and is relatively easy to trigger.",
         tier: "A",
       },        {
-        id: 0,
+        id: 2,
         name: "Mark Finley",
         image: "./assets/operators/mark.png",
         description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",
@@ -69,13 +69,13 @@ export function OpsProvider({ children }) {
         description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
         tier: "S",
       },        {
-        id: 0,
+        id: 1,
         name: "Lena Mackenzie",
         image: "./assets/operators/lena.png",
         description: "Buffs ASPD for all allies and is relatively easy to trigger.",
         tier: "A",
       },        {
-        id: 0,
+        id: 2,
         name: "Mark Finley",
         image: "./assets/operators/mark.png",
         description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",

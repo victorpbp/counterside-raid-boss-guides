@@ -1,4 +1,4 @@
-.overallsection {
+.sectionOps {
 
   background-color: lightcoral;
   color: black;
@@ -14,26 +14,26 @@
   
 }
 
-.allcards {
+.allcardsOps {
   display: flex;
   flex-direction: row;
   max-width: 90%;
   gap: 10px;
 }
 
-.carddisplay {
+.carddisplayOps {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.standout {
+.standoutOps {
   max-width: 100%;
   gap: 20px;
 }
 
-.standard {
+.standardOps {
   max-width: 40%;
   gap: 50px;
 }

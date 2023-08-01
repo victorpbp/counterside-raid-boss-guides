@@ -12,13 +12,13 @@ function OpsSection() {
   console.log(content);
   
   return (
-    <div className='overallsection'>
+    <div className='sectionOps'>
 
       <h1>Operators</h1>
 
-      <div className='allcards'>
+      <div className='allcardsOps'>
 
-        <div className='carddisplay standout'>
+        <div className='carddisplayOps standoutOps'>
           {content[globalSelector].map((item, index) =>
             { if (index<4) return (
                 <StandoutCard name={item.name} tier={item.tier} image={item.image} description={item.description}/>
@@ -27,7 +27,7 @@ function OpsSection() {
           )}
         </div>
 
-        <div className='carddisplay standard'>
+        <div className='carddisplayOps standardOps'>
           {content[globalSelector].map((item, index) =>
             { if (index>=4) return (
                 <StandardCard name={item.name} tier={item.tier} image={item.image} description={item.description}/>
