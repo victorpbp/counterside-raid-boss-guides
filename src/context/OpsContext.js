@@ -21,104 +21,66 @@ export function OpsProvider({ children }) {
           id: 0,
           name: "Kim Hana",
           image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
+          description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
           tier: "S",
         },        {
           id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
+          name: "Lena Mackenzie",
+          image: "./assets/operators/lena.png",
+          description: "Buffs ASPD for all allies and is relatively easy to trigger.",
+          tier: "A",
         },        {
           id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well. Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
-        },        {
-          id: 0,
-          name: "Kim Hana",
-          image: "./assets/operators/kim_hana.png",
-          description: "Great support for overall skill haste boost and slight dp boost as well.",
-          tier: "S",
+          name: "Mark Finley",
+          image: "./assets/operators/mark.png",
+          description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",
+          tier: "B",
         },
 
       ],
 
       [ //Inhibtor
-        {
-          id: 0,
-          name: "Serena Crew",
-          image: "",
-          description: "",
-          tier: "",
-        },
-
+      {
+        id: 0,
+        name: "Kim Hana",
+        image: "./assets/operators/kim_hana.png",
+        description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
+        tier: "S",
+      },        {
+        id: 0,
+        name: "Lena Mackenzie",
+        image: "./assets/operators/lena.png",
+        description: "Buffs ASPD for all allies and is relatively easy to trigger.",
+        tier: "A",
+      },        {
+        id: 0,
+        name: "Mark Finley",
+        image: "./assets/operators/mark.png",
+        description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",
+        tier: "B",
+      },
       ],
 
       [ //Worm
-        {
-          id: 0,
-          name: "Lena",
-          image: "",
-          description: "",
-          tier: "",
-        },
-
+      {
+        id: 0,
+        name: "Kim Hana",
+        image: "./assets/operators/kim_hana.png",
+        description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
+        tier: "S",
+      },        {
+        id: 0,
+        name: "Lena Mackenzie",
+        image: "./assets/operators/lena.png",
+        description: "Buffs ASPD for all allies and is relatively easy to trigger.",
+        tier: "A",
+      },        {
+        id: 0,
+        name: "Mark Finley",
+        image: "./assets/operators/mark.png",
+        description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",
+        tier: "B",
+      },
       ],
 
     ]
