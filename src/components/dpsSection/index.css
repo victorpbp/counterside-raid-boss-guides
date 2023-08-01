@@ -1,6 +1,6 @@
 .sectionDPS {
 
-  background-color: red;
+  background-color: orange;
   color: black;
 
   display: flex;
@@ -30,7 +30,7 @@
 
 .standoutDPS {
   max-width: 55%;
-  gap: 20px;
+  gap: 50px;
 }
 
 .standardDPS {
