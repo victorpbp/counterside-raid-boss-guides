@@ -22,7 +22,7 @@ function DpsSection() {
         <div className='carddisplayDPS standoutDPS'>
           {content[globalSelector].map((item, index) =>
             { if (index<5) return (
-                <StandoutCard name={item.name} role={item.role} image={item.image} description={item.description}/>
+                <StandoutCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind}/>
               ); else return ("")
             }
           )}
@@ -31,7 +31,7 @@ function DpsSection() {
         <div className='carddisplayDPS standardDPS'>
           {content[globalSelector].map((item, index) =>
             { if (index>=5) return (
-                <StandardCard name={item.name} role={item.role} image={item.image} description={item.description}/>
+                <StandardCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind}/>
               ); else return ("")
             }
           )}

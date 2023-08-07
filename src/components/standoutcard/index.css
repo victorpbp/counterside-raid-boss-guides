@@ -36,3 +36,17 @@
   color: white;
   font-weight: bold;
 }
+
+.icons .rearm {
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: contain;
+}
+
+.icons .kind {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  object-fit: contain;
+}

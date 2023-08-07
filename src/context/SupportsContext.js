@@ -2,6 +2,21 @@ import React, { useContext, useState } from "react"
 
 const SupportsContext = React.createContext()
 
+const counter = "./assets/roles/counter.png"
+const mech = "./assets/roles/mech.png"
+const soldier = "./assets/roles/soldier.png"
+
+const defender = "./assets/roles/defender.png"
+const ranger = "./assets/roles/ranger.png"
+const siege = "./assets/roles/siege.png"
+const sniper = "./assets/roles/sniper.png"
+const striker = "./assets/roles/striker.png"
+const supporter = "./assets/roles/supporter.png"
+const tower = "./assets/roles/tower.png"
+
+
+
+
 export function useSupports() {
   return useContext(SupportsContext)
 }
@@ -22,55 +37,89 @@ export function SupportsProvider({ children }) {
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
+        },        {
+          id: 0,
+          name: "Awakened Shin Jia",
+          image: "./assets/characters/ashinjia.png",
+          description: "INSANELY POWERFUL",
+          role: supporter,
+          kind: counter,
+          rearm: false,
+        },        {
+          id: 0,
+          name: "Awakened Shin Jia",
+          image: "./assets/characters/ashinjia.png",
+          description: "INSANELY POWERFUL",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },
 
       ],
@@ -81,7 +130,9 @@ export function SupportsProvider({ children }) {
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },
 
       ],
@@ -92,7 +143,9 @@ export function SupportsProvider({ children }) {
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/supporter.png",
+          role: supporter,
+          kind: counter,
+          rearm: false,
         },
 
       ],

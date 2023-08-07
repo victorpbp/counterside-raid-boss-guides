@@ -2,6 +2,18 @@ import React, { useContext, useState } from "react"
 
 const DpsContext = React.createContext()
 
+const counter = "./assets/roles/counter.png"
+const mech = "./assets/roles/mech.png"
+const soldier = "./assets/roles/soldier.png"
+
+const defender = "./assets/roles/defender.png"
+const ranger = "./assets/roles/ranger.png"
+const siege = "./assets/roles/siege.png"
+const sniper = "./assets/roles/sniper.png"
+const striker = "./assets/roles/striker.png"
+const supporter = "./assets/roles/supporter.png"
+const tower = "./assets/roles/tower.png"
+
 export function useDPS() {
   return useContext(DpsContext)
 }
@@ -21,49 +33,89 @@ export function DpsProvider({ children }) {
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },        {
           id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
+        },        {
+          id: 0,
+          name: "Awakened Seo Yoon",
+          image: "./assets/characters/aseoyoon.png",
+          description: "INSANELY POWERFUL",
+          role: ranger,
+          kind: counter,
+          rearm: false,
+        },        {
+          id: 0,
+          name: "Awakened Seo Yoon",
+          image: "./assets/characters/aseoyoon.png",
+          description: "INSANELY POWERFUL",
+          role: ranger,
+          kind: counter,
+          rearm: false,
+        },        {
+          id: 0,
+          name: "Awakened Seo Yoon",
+          image: "./assets/characters/aseoyoon.png",
+          description: "INSANELY POWERFUL",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },
 
       ],
@@ -74,7 +126,9 @@ export function DpsProvider({ children }) {
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },
 
       ],
@@ -85,7 +139,9 @@ export function DpsProvider({ children }) {
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "INSANELY POWERFUL",
-          role: "./assets/roles/ranger.png",
+          role: ranger,
+          kind: counter,
+          rearm: false,
         },
 
       ],
