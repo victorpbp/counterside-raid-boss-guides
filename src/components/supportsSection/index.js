@@ -20,8 +20,8 @@ function SupportsSection() {
 
         <div className='carddisplaySupports standoutSupports'>
           {content[globalSelector].map((item, index) =>
-            { if (index<4) return (
-                <StandoutCard name={item.name} tier={item.tier} image={item.image} description={item.description}/>
+            { if (index<5) return (
+                <StandoutCard name={item.name} role={item.role} image={item.image} description={item.description}/>
               ); else return ("")
             }
           )}
@@ -29,8 +29,8 @@ function SupportsSection() {
 
         <div className='carddisplaySupports standardSupports'>
           {content[globalSelector].map((item, index) =>
-            { if (index>=4) return (
-                <StandardCard name={item.name} tier={item.tier} image={item.image} description={item.description}/>
+            { if (index>=5) return (
+                <StandardCard name={item.name} role={item.role} image={item.image} description={item.description}/>
               ); else return ("")
             }
           )}

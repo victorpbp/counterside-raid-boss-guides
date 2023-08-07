@@ -9,16 +9,7 @@
 
   padding: 0.1em 0 1em 0;
 
-  box-sizing: border-box;
-  //max-height: 100vh We might wanna rethink this approach, it might just be for the better to just let it take as much space as it wants
-  
-}
-
-.allcardsOps {
-  display: flex;
-  flex-direction: row;
-  max-width: 90%;
-  gap: 10px;
+  box-sizing: border-box;  
 }
 
 .carddisplayOps {
@@ -26,14 +17,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.standoutOps {
-  max-width: 100%;
   gap: 20px;
-}
-
-.standardOps {
-  max-width: 40%;
-  gap: 50px;
 }

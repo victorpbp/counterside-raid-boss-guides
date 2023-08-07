@@ -1,10 +1,23 @@
-.individualcard {
+.individualcardStandard {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .common {
-  max-width: 25%;
+  max-width: 20%;
+  height: 35%;
+}
+
+.hoverDetails {
+  display: none;
+}
+
+.individualcardStandard:hover .hoverDetails {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: black;
 }
