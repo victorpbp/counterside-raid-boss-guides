@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './index.css';
 import { useSupports } from '../../context/SupportsContext';
 import { useGlobalSelector } from '../../context/RaidGuideContext';
@@ -7,21 +8,32 @@ import StandoutCard from '../cards/standoutcard';
 
 function SupportsSection() {
 
+  const [selected, setSelected] = useState(false)
   const content = useSupports();
   const [globalSelector] = useGlobalSelector();
   console.log(content);
+
+  const selectedOnHandler = () => {
+    setSelected(true);
+  }
+  const selectedOffHandler = () => {
+    setSelected(false);
+  }
   
   return (
     <div className='section supportsColor'>
 
-      <h1>Supports</h1>
+      <div className='topArea'>
+        <h1>Supports</h1>
+        <h3>Details: <span onClick={selectedOnHandler}>ON</span> <span onClick={selectedOffHandler} >OFF</span></h3>
+      </div>
 
       <div className='allCards'>
 
         <div className='cardDisplay standoutCardDisplay'>
           {content[globalSelector].map((item, index) =>
             { if (index<4) return (
-                <StandoutCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind} border={true}/>
+                <StandoutCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind} border={true} selected={selected}/>
               ); else return ("")
             }
           )}
@@ -30,7 +42,7 @@ function SupportsSection() {
         <div className='cardDisplay standardCardDisplay'>
           {content[globalSelector].map((item, index) =>
             { if (index>=4) return (
-                <StandardCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind}/>
+                <StandardCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind} selected={selected}/>
               ); else return ("")
             }
           )}

@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 
-  padding: 0.1em 0 1em 0;
+  padding: 0.1em 0 2em 0;
 
   box-sizing: border-box;
 
@@ -37,4 +37,17 @@
 .standardCardDisplay {
   max-width: 50%;
   gap: 50px;
+}
+
+.topArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+}
+.topArea h3 {
+  position: absolute;
+  right: 50px;
 }

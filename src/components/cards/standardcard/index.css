@@ -1,5 +1,5 @@
 .common {
-  max-width: 30%;
+  max-width: 27%;
   height: 35%;
   transition: background-color 0.5s, color 0.5s;
 }
@@ -9,16 +9,24 @@
 .hoverDetails {
   display: none;
 }
-
-
 .common:hover {
   color: white;
   //height: fit-content;
   //width: fit-content;
   border: 2px solid white;
-  padding: 8px;
+  padding: 8px 0px 12px 0px;
   background-color: black;
 }
 .common:hover .hoverDetails {
+  display: block;
+}
+
+
+.permanentlySelectedStandard {
+  color: white;
+  padding: 8px 0px 12px 0px;
+  background-color: black;
+}
+.permanentlySelectedStandard .hoverDetails {
   display: block;
 }
