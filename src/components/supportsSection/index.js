@@ -12,13 +12,13 @@ function SupportsSection() {
   console.log(content);
   
   return (
-    <div className='sectionSupports'>
+    <div className='section supportsColor'>
 
       <h1>Supports</h1>
 
-      <div className='allcardsSupports'>
+      <div className='allCards'>
 
-        <div className='carddisplaySupports standoutSupports'>
+        <div className='cardDisplay standoutCardDisplay'>
           {content[globalSelector].map((item, index) =>
             { if (index<5) return (
                 <StandoutCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind}/>
@@ -27,7 +27,7 @@ function SupportsSection() {
           )}
         </div>
 
-        <div className='carddisplaySupports standardSupports'>
+        <div className='cardDisplay standardCardDisplay'>
           {content[globalSelector].map((item, index) =>
             { if (index>=5) return (
                 <StandardCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind}/>

@@ -13,13 +13,13 @@ function DpsSection() {
   console.log(content);
   
   return (
-    <div className='sectionDPS'>
+    <div className='section dpsColor'>
 
       <h1>Damage Dealers</h1>
 
-      <div className='allcardsDPS'>
+      <div className='allCards'>
 
-        <div className='carddisplayDPS standoutDPS'>
+        <div className='cardDisplay standoutCardDisplay'>
           {content[globalSelector].map((item, index) =>
             { if (index<5) return (
                 <StandoutCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind}/>
@@ -28,7 +28,7 @@ function DpsSection() {
           )}
         </div>
 
-        <div className='carddisplayDPS standardDPS'>
+        <div className='cardDisplay standardCardDisplay'>
           {content[globalSelector].map((item, index) =>
             { if (index>=5) return (
                 <StandardCard name={item.name} role={item.role} image={item.image} description={item.description} rearm={item.rearm} kind={item.kind}/>

@@ -12,11 +12,11 @@ function ShipsSection() {
   console.log(content);
   
   return (
-    <div className='sectionShips'>
+    <div className='section shipsColor'>
 
       <h1>Ships</h1>
 
-      <div className='carddisplayShips'>
+      <div className='cardDisplay'>
         {content[globalSelector].map((item, index) =>
           { return (
               <StandoutCard name={item.name} tier={item.tier} image={item.image} description={item.description} border={true} onlyStandout={true}/>

@@ -1,21 +1,3 @@
-.sectionOps {
-
+.opsColor {
   background-color: rgba(197, 128, 240, 0.808);
-  color: black;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding: 0.1em 0 1em 0;
-
-  box-sizing: border-box;  
-}
-
-.carddisplayOps {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
 }

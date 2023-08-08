@@ -1,22 +1,3 @@
-.sectionShips {
-
+.shipsColor {
   background-color: rgba(0, 81, 255, 0.489);
-  color: black;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding: 0.1em 0 1em 0;
-
-  box-sizing: border-box;
-  
-}
-
-.carddisplayShips {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
 }

@@ -17,6 +17,9 @@ import SupportsSection from './components/supportsSection';
 import ExtraBossInfo from './components/extraBossInfo';
 import Footer from './components/footer';
 
+//GENERALIZED STYLES IMPORTS
+import './app.css';
+
 
 function App() {
   return (
