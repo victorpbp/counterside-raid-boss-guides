@@ -1,20 +1,16 @@
-.individualcardStandout {
+.individualCard {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  //margin: auto;
   flex-direction: column;
-  padding: 5px;
   box-sizing: border-box;
 }
 
 .border {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
-}
-
-.crucial {
-  max-width: 25%;
-  max-height: 400px;
 }
 
 .icons {
@@ -44,9 +40,4 @@
   bottom: 0;
   right: 0;
   object-fit: contain;
-}
-
-.onlyStandout {
-  max-width: 22%;
-  max-height: 400px;
 }

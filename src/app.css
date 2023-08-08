@@ -8,12 +8,15 @@
   padding: 0.1em 0 1em 0;
 
   box-sizing: border-box;
+
+  height: fit-content;
+
 }
 
 .allCards {
   display: flex;
   flex-direction: row;
-  max-width: 90%;
+  align-items: center;
   gap: 10px;
 }
 
@@ -23,14 +26,15 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  max-width: 90%;
 }
 
 .standoutCardDisplay {
-  max-width: 60%;
+  max-width: 50%;
   gap: 50px;
 }
 
 .standardCardDisplay {
-  max-width: 40%;
+  max-width: 50%;
   gap: 50px;
 }

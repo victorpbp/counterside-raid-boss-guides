@@ -4,7 +4,7 @@ import '../index.css';
 function StandoutCard(props) {
   
   return (
-    <div className={`individualcardStandout ${props.border ? 'border' : ''} ${props.onlyStandout ? 'onlyStandout' : 'crucial'}`}>
+    <div className={`individualCard ${props.border ? 'border' : ''} ${props.onlyStandout ? 'onlyStandout' : 'uncommon'}`}>
       <h3>{props.name}</h3>
       <div className="icons">
 
