@@ -2,8 +2,8 @@ import './index.css';
 import { useDPS } from '../../context/DpsContext';
 import { useGlobalSelector } from '../../context/RaidGuideContext';
 
-import StandardCard from '../standardcard';
-import StandoutCard from '../standoutcard';
+import StandardCard from '../cards/standardcard';
+import StandoutCard from '../cards/standoutcard';
 
 function DpsSection() {
 

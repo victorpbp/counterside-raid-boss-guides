@@ -2,7 +2,7 @@ import './index.css';
 import { useShips } from '../../context/ShipsContext';
 import { useGlobalSelector } from '../../context/RaidGuideContext';
 
-import StandoutCard from '../standoutcard';
+import StandoutCard from '../cards/standoutcard';
 
 function ShipsSection() {
 

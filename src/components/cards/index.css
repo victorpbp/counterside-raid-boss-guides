@@ -17,11 +17,6 @@
   max-height: 400px;
 }
 
-.onlyStandout {
-  max-width: 22%;
-  max-height: 400px;
-}
-
 .icons {
   position: relative;
 }
@@ -49,4 +44,9 @@
   bottom: 0;
   right: 0;
   object-fit: contain;
+}
+
+.onlyStandout {
+  max-width: 22%;
+  max-height: 400px;
 }

@@ -2,8 +2,8 @@ import './index.css';
 import { useSupports } from '../../context/SupportsContext';
 import { useGlobalSelector } from '../../context/RaidGuideContext';
 
-import StandardCard from '../standardcard';
-import StandoutCard from '../standoutcard';
+import StandardCard from '../cards/standardcard';
+import StandoutCard from '../cards/standoutcard';
 
 function SupportsSection() {
 

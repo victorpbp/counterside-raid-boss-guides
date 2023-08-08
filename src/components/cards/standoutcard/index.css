@@ -1,0 +1,13 @@
+.individualcardStandout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.onlyStandout {
+  max-width: 22%;
+  max-height: 400px;
+}
