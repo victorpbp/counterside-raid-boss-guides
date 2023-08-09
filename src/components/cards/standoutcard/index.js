@@ -8,7 +8,7 @@ function StandoutCard(props) {
       <h3>{props.name}</h3>
       <div className="icons">
 
-        <img id="char" src={props.image} alt="Character Icon" width="160px" height="160px"/>
+        <img className="char" src={props.image} alt="Character Icon" width="160px" height="160px"/>
 
         {props.rearm ? <img className="rearm" src='./assets/roles/rearm.png' alt="Character Rearm" width="30px" height="30px"/> : ''}
 

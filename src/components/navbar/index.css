@@ -48,14 +48,18 @@ html {
 .navbar-images {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     box-sizing: border-box;
 }
 
 .navigation-bar img:hover {
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
+
+.activeBoss { 
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: .5s ease;
+ }
 
 @media screen and (max-width: 1000px) { 
 

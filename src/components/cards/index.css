@@ -24,8 +24,6 @@
   object-fit: contain;
 
   display: flex;
-  color: white;
-  font-weight: bold;
 }
 
 .icons .rearm {

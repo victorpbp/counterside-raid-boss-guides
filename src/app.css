@@ -51,3 +51,6 @@
   position: absolute;
   right: 50px;
 }
+.topArea span {
+  cursor: pointer;
+}

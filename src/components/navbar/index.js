@@ -1,13 +1,28 @@
 import './index.css';
+import { useGlobalSelector } from '../../context/RaidGuideContext';
+
 
 function Navbar() {
+
+  const [globalSelector, setGlobalSelector] = useGlobalSelector();
+
+  const handleGlobalSelector0 = () => {
+    setGlobalSelector(0);
+  }
+  const handleGlobalSelector1 = () => {
+    setGlobalSelector(1);
+  }
+  const handleGlobalSelector2 = () => {
+    setGlobalSelector(2);
+  }
+
   return (
     <div class="navigation-bar">
 
       <div class="navbar-images">
-        <img title="Britra" src='/assets/Bosspictures/Britra-avatar.png' alt= "Britra Avatar"></img>
-        <img title="Inhibitor" src='/assets/Bosspictures/Inhibitor-avatar.png' alt= "Inhibitor Avatar"></img>
-        <img title="Worm" src='/assets/Bosspictures/Worm-avatar.png' alt= "Worm Avatar"></img>
+        <img onClick={handleGlobalSelector0} className={`${globalSelector===0 ? 'activeBoss' : ''}`} title="Britra" src='/assets/Bosspictures/Britra-avatar.png' alt= "Britra Avatar"></img>
+        <img onClick={handleGlobalSelector1} className={`${globalSelector===1 ? 'activeBoss' : ''}`} title="Inhibitor" src='/assets/Bosspictures/Inhibitor-avatar.png' alt= "Inhibitor Avatar"></img>
+        <img onClick={handleGlobalSelector2} className={`${globalSelector===2 ? 'activeBoss' : ''}`} title="Worm" src='/assets/Bosspictures/Worm-avatar.png' alt= "Worm Avatar"></img>
       </div>
 
       <div class="navigation-bar-links">
