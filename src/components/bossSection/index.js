@@ -2,7 +2,6 @@ import React from 'react';
 import { useBosses } from '../../context/BossesContext';
 import { useGlobalSelector } from '../../context/RaidGuideContext';
 
-
 import './index.css';
 
 function BossSection() {
@@ -11,7 +10,6 @@ function BossSection() {
   const [globalSelector] = useGlobalSelector();
 
   const current = content[globalSelector];
-
 
   //console.log(content);
 

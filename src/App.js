@@ -24,8 +24,8 @@ import './app.css';
 function App() {
   return (
     <RaidGuideProvider>
-      <Navbar />
       <BossesProvider>
+        <Navbar />
         <BossSection />
       </BossesProvider>
       <ShipsProvider>

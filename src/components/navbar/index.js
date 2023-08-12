@@ -1,10 +1,15 @@
-import './index.css';
+import React from 'react';
+import { useBosses } from '../../context/BossesContext';
 import { useGlobalSelector } from '../../context/RaidGuideContext';
 
+import './index.css';
 
 function Navbar() {
 
+  const content = useBosses();
   const [globalSelector, setGlobalSelector] = useGlobalSelector();
+
+  const current = content[globalSelector];
 
   const handleGlobalSelector0 = () => {
     setGlobalSelector(0);
@@ -16,18 +21,19 @@ function Navbar() {
     setGlobalSelector(2);
   }
 
+
   return (
     <div class="navigation-bar">
 
       <div class="navbar-images">
-        <img onClick={handleGlobalSelector0} className={`${globalSelector===0 ? 'activeBoss' : ''}`} title="Britra" src='/assets/Bosspictures/Britra-avatar.png' alt= "Britra Avatar"></img>
-        <img onClick={handleGlobalSelector1} className={`${globalSelector===1 ? 'activeBoss' : ''}`} title="Inhibitor" src='/assets/Bosspictures/Inhibitor-avatar.png' alt= "Inhibitor Avatar"></img>
-        <img onClick={handleGlobalSelector2} className={`${globalSelector===2 ? 'activeBoss' : ''}`} title="Worm" src='/assets/Bosspictures/Worm-avatar.png' alt= "Worm Avatar"></img>
+        <img onClick={handleGlobalSelector0} className={`${globalSelector===0 ? 'activeBoss' : ''}`} title="Inhibitor" src={content[0].avatar} alt= "Inhibitor Avatar"></img>
+        <img onClick={handleGlobalSelector1} className={`${globalSelector===1 ? 'activeBoss' : ''}`} title="Britra" src={content[1].avatar}></img>
+        <img onClick={handleGlobalSelector2} className={`${globalSelector===2 ? 'activeBoss' : ''}`} title="Tyrant" src={content[2].avatar} alt= "Tyrant Avatar"></img>
       </div>
 
       <div class="navigation-bar-links">
         <a href="#boss-description">
-          <h2>Boss Details</h2>
+          <h2>Boss</h2>
         </a>
 
         <a href="#recommended-ships">
@@ -49,7 +55,9 @@ function Navbar() {
         <a href="#extra-info">
           <h2>Extra</h2>
         </a>
+
       </div>
+      
     </div>
   );
 }
