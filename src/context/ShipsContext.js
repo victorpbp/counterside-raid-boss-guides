@@ -20,7 +20,7 @@ export function ShipsProvider({ children }) {
         {
           id: 0,
           name: "Enterprise",
-          image: "./assets/ships/enterprise.png",
+          image: "http://victorpbp.github.io/counterside-raid-boss-guides/docs/assets/ships/enterprise.png",
           description: "Buffs Counters and Mechs and can debuff with one of the skills. Great all around and covers the majority of the great units for raids.",
           tier: "S",
         },        {
