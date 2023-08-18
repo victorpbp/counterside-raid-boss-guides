@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/counterside-raid-boss-guides/static/css/main.aecab4f9.css",
+    "main.js": "/counterside-raid-boss-guides/static/js/main.6d99197d.js",
+    "static/js/787.b41bf073.chunk.js": "/counterside-raid-boss-guides/static/js/787.b41bf073.chunk.js",
+    "index.html": "/counterside-raid-boss-guides/index.html",
+    "main.aecab4f9.css.map": "/counterside-raid-boss-guides/static/css/main.aecab4f9.css.map",
+    "main.6d99197d.js.map": "/counterside-raid-boss-guides/static/js/main.6d99197d.js.map",
+    "787.b41bf073.chunk.js.map": "/counterside-raid-boss-guides/static/js/787.b41bf073.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aecab4f9.css",
+    "static/js/main.6d99197d.js"
+  ]
+}
