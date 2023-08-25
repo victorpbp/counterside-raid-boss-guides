@@ -33,7 +33,6 @@ export function SupportsProvider({ children }) {
 
       [ //Britra
         {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -41,7 +40,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -49,7 +47,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -57,7 +54,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -65,7 +61,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -73,7 +68,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -81,7 +75,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -89,7 +82,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -97,7 +89,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -105,7 +96,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -113,7 +103,6 @@ export function SupportsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -126,7 +115,6 @@ export function SupportsProvider({ children }) {
 
       [ //Inhibtor
         {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -139,7 +127,6 @@ export function SupportsProvider({ children }) {
 
       [ //Worm
         {
-          id: 0,
           name: "Awakened Shin Jia",
           image: "./assets/characters/ashinjia.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",

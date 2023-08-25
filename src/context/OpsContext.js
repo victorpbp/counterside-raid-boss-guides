@@ -18,19 +18,16 @@ export function OpsProvider({ children }) {
 
       [ //Britra
         {
-          id: 0,
           name: "Kim Hana",
           image: "./assets/operators/kim_hana.png",
           description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
           activation: ["./assets/roles/ranger.png" , "./assets/roles/supporter.png"]
         },        {
-          id: 1,
           name: "Lena Mackenzie",
           image: "./assets/operators/lena.png",
           description: "Buffs ASPD for all allies and is relatively easy to trigger.",
           activation: ["./assets/roles/ranger.png" , "./assets/roles/sniper.png" , "./assets/roles/striker.png"]
         },        {
-          id: 2,
           name: "Mark Finley",
           image: "./assets/operators/mark.png",
           description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",
@@ -40,19 +37,16 @@ export function OpsProvider({ children }) {
 
       [ //Inhibtor
         {
-          id: 0,
           name: "Kim Hana",
           image: "./assets/operators/kim_hana.png",
           description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
           activation: ["./assets/roles/ranger.png" , "./assets/roles/supporter.png"]
         },        {
-          id: 1,
           name: "Lena Mackenzie",
           image: "./assets/operators/lena.png",
           description: "Buffs ASPD for all allies and is relatively easy to trigger.",
           activation: ["./assets/roles/ranger.png" , "./assets/roles/sniper.png" , "./assets/roles/striker.png"]
         },        {
-          id: 2,
           name: "Mark Finley",
           image: "./assets/operators/mark.png",
           description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",
@@ -62,19 +56,16 @@ export function OpsProvider({ children }) {
 
       [ //Worm
         {
-          id: 0,
           name: "Kim Hana",
           image: "./assets/operators/kim_hana.png",
           description: "Gives skill haste boost and extra dp on top of having an extremely easy trigger.",
           activation: ["./assets/roles/ranger.png" , "./assets/roles/supporter.png"]
         },        {
-          id: 1,
           name: "Lena Mackenzie",
           image: "./assets/operators/lena.png",
           description: "Buffs ASPD for all allies and is relatively easy to trigger.",
           activation: ["./assets/roles/ranger.png" , "./assets/roles/sniper.png" , "./assets/roles/striker.png"]
         },        {
-          id: 2,
           name: "Mark Finley",
           image: "./assets/operators/mark.png",
           description: "If you're new to operators, he's given for free and is good to start, though you may wanna switch to Hana or Lena whenever possible.",

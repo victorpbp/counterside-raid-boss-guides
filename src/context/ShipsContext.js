@@ -18,25 +18,21 @@ export function ShipsProvider({ children }) {
 
       [ //Britra
         {
-          id: 0,
           name: "Enterprise",
           image: "./assets/ships/enterprise.png",
           description: "Buffs Counters and Mechs and can debuff with one of the skills. Great all around and covers the majority of the great units for raids.",
           tier: "S",
         },        {
-          id: 1,
           name: "Kamiizumi",
           image: "./assets/ships/kamiizumi.png",
           description: "Massively increases everything CRIT related. Amazing for raids since it benefits basically the entire team and some of the biggest DPS's in the game.",
           tier: "S",
         },        {
-          id: 2,
           name: "AHAB",
           image: "./assets/ships/ahab.png",
           description: "Focuses on buffing Rangers and Snipers with their ASPD, great augment considering many of the heavy hitters fall under these two classes. Even moreso in the future with some new key characters.",
           tier: "S",
         },        {
-          id: 3,
           name: "Gleipnir",
           image: "./assets/ships/gleipnir.png",
           description: "If you're new, this is the ship you wanna go for until you can acquire one of the other options listed. This ship buffs Counters which, for early game, is likely to be the main source of damage and basically your entire team anyway.",
@@ -47,25 +43,21 @@ export function ShipsProvider({ children }) {
 
       [ //Inhibtor
       {
-        id: 0,
         name: "Enterprise",
         image: "./assets/ships/enterprise.png",
         description: "Buffs Counters and Mechs and can debuff with one of the skills. Great all around and covers the majority of the great units for raids.",
         tier: "S",
       },        {
-        id: 1,
         name: "Kamiizumi",
         image: "./assets/ships/kamiizumi.png",
         description: "Massively increases everything CRIT related. Amazing for raids since it benefits basically the entire team and some of the biggest DPS's in the game.",
         tier: "S",
       },        {
-        id: 2,
         name: "AHAB",
         image: "./assets/ships/ahab.png",
         description: "Focuses on buffing Rangers and Snipers with their ASPD, great augment considering many of the heavy hitters fall under these two classes. Even moreso in the future with some new key characters.",
         tier: "S",
       },        {
-        id: 3,
         name: "Gleipnir",
         image: "./assets/ships/gleipnir.png",
         description: "If you're new, this is the ship you wanna go for until you can acquire one of the other options listed. This ship buffs Counters which, for early game, is likely to be the main source of damage and basically your entire team anyway.",
@@ -76,25 +68,21 @@ export function ShipsProvider({ children }) {
 
       [ //Worm
       {
-        id: 0,
         name: "Enterprise",
         image: "./assets/ships/enterprise.png",
         description: "Buffs Counters and Mechs and can debuff with one of the skills. Great all around and covers the majority of the great units for raids.",
         tier: "S",
       },        {
-        id: 1,
         name: "Kamiizumi",
         image: "./assets/ships/kamiizumi.png",
         description: "Massively increases everything CRIT related. Amazing for raids since it benefits basically the entire team and some of the biggest DPS's in the game.",
         tier: "S",
       },        {
-        id: 2,
         name: "AHAB",
         image: "./assets/ships/ahab.png",
         description: "Focuses on buffing Rangers and Snipers with their ASPD, great augment considering many of the heavy hitters fall under these two classes. Even moreso in the future with some new key characters.",
         tier: "S",
       },        {
-        id: 3,
         name: "Gleipnir",
         image: "./assets/ships/gleipnir.png",
         description: "If you're new, this is the ship you wanna go for until you can acquire one of the other options listed. This ship buffs Counters which, for early game, is likely to be the main source of damage and basically your entire team anyway.",

@@ -29,7 +29,6 @@ export function DpsProvider({ children }) {
 
       [ //Britra
         {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -37,7 +36,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -45,7 +43,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -53,7 +50,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -61,7 +57,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -69,7 +64,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -77,7 +71,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -85,7 +78,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -93,7 +85,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -101,7 +92,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -109,7 +99,6 @@ export function DpsProvider({ children }) {
           kind: counter,
           rearm: false,
         },        {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -122,7 +111,6 @@ export function DpsProvider({ children }) {
 
       [ //Inhibtor
         {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
@@ -135,7 +123,6 @@ export function DpsProvider({ children }) {
 
       [ //Worm
         {
-          id: 0,
           name: "Awakened Seo Yoon",
           image: "./assets/characters/aseoyoon.png",
           description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum",
